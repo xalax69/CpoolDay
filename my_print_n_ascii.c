@@ -4,7 +4,7 @@ void my_print_n_ascii(int howMany)
 {
     int j;
     int f = howMany + 32;
-    for(j = 32; j <=f ; j++)
+    for(j = 33; j <=f ; j++)
     {
         print_char((char)j);
     }
